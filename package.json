@@ -1,0 +1,8 @@
+{
+  "name": "that-tree2",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd server && yarn install && cd ../file-exploxer && yarn install"
+  }
+}
